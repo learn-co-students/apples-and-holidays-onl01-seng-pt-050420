@@ -55,7 +55,7 @@ holiday_hash.collect do |season,holiday|
       puts season.to_s.capitalize!+":"
       holiday.collect do |holiday_name, supply|
       puts holiday_name.capitalize
-      binding.pry
+
     end
 end
 end
